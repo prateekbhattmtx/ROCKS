@@ -1,0 +1,136 @@
+* {margin: 0%; padding: 0%;}
+            html{background-color:aliceblue;}
+            .container{
+                background-color: rgb(252, 252, 252);
+            }.nav{
+                background-attachment: rgb(252,252,252);
+                box-shadow: 2px 2px 25px 2px rgba(0,0,0,0.5);
+            }.card{
+                width: 80%;
+                text-align: center;
+                padding: 20px;
+                background: white;
+                border-radius: 5px;
+                margin: 20px auto 20px;
+            }.box_shadow{
+                box-shadow: 0px 0px 17px 3px rgba(0,0,0,0.35);
+            }.table_head_card{
+                display: none;
+            }.avtaar{
+                height: 150px;
+                width: 60%;
+                border-radius: 50%;
+            }.text_big{
+                font-weight: bold;
+                font-size: large;
+            }.text_small{
+                font-weight: lighter;
+                color: gray;
+            }.web{
+                display: none;
+            }.mobile{
+                display: block;
+            }p{
+                width: 100%;
+            }.icon{
+                height: 40px;
+            }.side_nav{
+                background-color: black;
+                color: white;
+            }
+            @media only screen and (max-width: 739px){
+                .sidenav {
+                    height: 100%;
+                    width: 0;
+                    position: fixed;
+                    z-index: 1;
+                    top: 0;
+                    left: 0;
+                    background-color: #111;
+                    overflow-x: hidden;
+                    transition: 0.5s;
+                    padding-top: 60px;
+                    }
+
+                    .sidenav a {
+                    padding: 8px 8px 8px 32px;
+                    text-decoration: none;
+                    font-size: 25px;
+                    color: #818181;
+                    display: block;
+                    transition: 0.3s;
+                    }
+
+                    .sidenav a:hover {
+                    color: #f1f1f1;
+                    }
+
+                    .sidenav .closebtn {
+                    position: absolute;
+                    top: 0;
+                    right: 25px;
+                    font-size: 36px;
+                    margin-left: 50px;
+                    }
+            }
+            @media only screen and (min-width: 740px){
+                p{
+                    text-align: left;
+                    width: auto;
+                }a{
+                    text-align: left;
+                }
+                .web{
+                    display: block;
+                }.mobile{
+                    display: none;
+                }
+                .table_container{
+                    background-color: white;
+                    box-shadow: 0px 0px 17px 3px rgba(0,0,0,0.35);
+                    margin: 20px auto 20px;
+                    border-radius: 5px;
+                }.table_head_card{
+                    display: flex;
+                }.card{
+                    display: flex;
+                    width: 95%;
+                    height: 60px;
+                    align-items: center;
+                    text-align: center;
+                    border-bottom-width: 0.5px;
+                    border-bottom-color: gray;
+                    border-bottom-style: solid;
+                    border-radius: 0%;
+                }.avtaar{
+                    height: 30px;
+                    width: auto;
+                    border-radius: 50%;
+                }.box_shadow{
+                    box-shadow: none;
+                }.content_box{
+                    display: contents;
+                }.table_data{
+                    margin-right: 10px;
+                }.icon{
+                    height: 20px;
+                    width: auto;
+                    border-radius: 50%;
+                    margin-left: 10px;
+                }.web_border{
+                    border-right-style: solid;
+                    border-left-style: solid;
+                    border-right-width:1px;
+                    border-left-width:1px;
+                    border-color:gray;
+                }.text_blue{
+                    color: cornflowerblue;
+                }.nav_menu{
+                    align-items: center;
+                    flex: none;
+                }.side_nav{
+                    height: 660px;
+                    background-color: lightblue;
+                    color: black;
+                }
+            }

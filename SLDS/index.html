@@ -1,0 +1,215 @@
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="assets/styles/salesforce-lightning-design-system.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+    </head>
+    <body class="container" id="body">
+        <div class="nav slds-grid slds-gutters ">
+            <img class="icon mobile slds-m-horizontal_small" style="cursor:pointer" onclick="openNav()" src="assets/images/hamburger.png" alt="">
+            <div class="slds-grid slds-gutters slds-col slds-m-left_large">
+                <div class="slds-m-left_xx-small ">
+                    <p class="slds-text-heading_large ">ROCX</p>
+                    <p class="slds-text-heading_medium ">Platform</p>
+                </div>
+            </div>
+            <div class="slds-grid slds-gutters slds-col nav_menu slds-m-horizontal_large">
+                <ul class="slds-list_horizontal slds-has-block-links_space">
+                    <li class="web slds-m-horizontal_small">
+                        <a class="web" href="javascript:void(0);">Dashboard</a>
+                    </li>
+                    <li class="web_border slds-m-horizontal_small slds-p-horizontal_small"> 
+                        <span class="slds-avatar slds-avatar_medium">
+                            <img alt="Person name" src="assets/images/notification.png" title="Person name" />
+                        </span>
+                    </li>
+                    <li class=" slds-m-horizontal_small">
+                        <span class="slds-avatar slds-avatar_circle slds-avatar_medium">
+                            <img alt="Person name" src="assets/images/avatar2.jpg" title="Person name" />
+                        </span>
+                    </li>
+                    <li class="web slds-m-horizontal_small"> 
+                        <a class="web" href="javascript:void(0);">Stina Gunnarsdottir</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="slds-grid">
+            <div class="slds-col slds-size_3-of-9 mobile side_nav sidenav" id="mySidenav" > 
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <ul class="slds-m-around_x-large ">
+                    <li class="text_blue slds-m-vertical_medium"> <b>Summary</b> </li>
+                    <li class="slds-m-vertical_medium"> <b>Account Summary</b> </li>
+                    <li class="text_blue slds-m-vertical_medium"> <b>Investments</b> </li>
+                    <li class="slds-m-vertical_medium"> <b>My Investments</b> </li>
+                    <li class="slds-m-vertical_medium"> <b>Investor List</b> </li>
+                    <li class="text_blue slds-m-vertical_medium"> <b>Documents</b> </li>
+                    <li class="slds-m-vertical_medium"> <b>My Documnets</b> </li>
+                    <li class="slds-m-vertical_medium"> <b>Delegate Documents</b> </li>
+                    <li class="text_blue slds-m-vertical_medium"> <b>Transaction</b> </li>
+                    <li class="slds-m-vertical_medium"> <b>My Transaction</b> </li>
+                    <li class="text_blue slds-m-vertical_medium"> <b>Delegate</b> </li>
+                    <li class="slds-m-vertical_medium"> <b>My Delegate</b> </li>
+                </ul>
+            </div>
+            <div class="slds-col slds-size_3-of-9 side_nav web" > 
+                <ul class="slds-m-around_x-large ">
+                    <li class="text_blue slds-m-vertical_medium"> <b>Summary</b> </li>
+                    <li class="slds-m-vertical_medium"> <b>Account Summary</b> </li>
+                    <li class="text_blue slds-m-vertical_medium"> <b>Investments</b> </li>
+                    <li class="slds-m-vertical_medium"> <b>My Investments</b> </li>
+                    <li class="slds-m-vertical_medium"> <b>Investor List</b> </li>
+                    <li class="text_blue slds-m-vertical_medium"> <b>Documents</b> </li>
+                    <li class="slds-m-vertical_medium"> <b>My Documnets</b> </li>
+                    <li class="slds-m-vertical_medium"> <b>Delegate Documents</b> </li>
+                    <li class="text_blue slds-m-vertical_medium"> <b>Transaction</b> </li>
+                    <li class="slds-m-vertical_medium"> <b>My Transaction</b> </li>
+                    <li class="text_blue slds-m-vertical_medium"> <b>Delegate</b> </li>
+                    <li class="slds-m-vertical_medium"> <b>My Delegate</b> </li>
+                </ul>
+            </div>
+            <div class="table_container slds-col slds-large-size_6-of-9 slds-medium-size_6-of-8">
+                <div class="slds-grid slds-m-around_x-large">
+                    <p class="slds-col"> <b>Investors List</b> </p>
+                    <img class="icon web" src="assets/images/menu_black.png" alt="">
+                </div>
+                <div class="slds-grid slds-gutturs table_head_card slds-p-vertical_large">
+                    <span class="table_head_text slds-col slds-size_1-of-12"></span>
+                    <p class="text_small slds-col slds-size_3-of-12">Name</p>
+                    <p class="text_small 4lds-col slds-size_2-of-12">Total Contribution</p>
+                    <p class="text_small slds-col slds-size_2-of-12">Total Distributions</p>
+                    <p class="text_small slds-col slds-size_2-of-12">Total Balance</p>
+                    <p class="text_small slds-col slds-size_2-of-12">Details</p>
+                </div>
+                <div class="card box_shadow slds-m-vertical_large">
+                    <img class="avtaar slds-large-size_1-of-12 slds-medium-size_1-of-12 slds-m-right_small" src="assets/images/avatar1.jpg" alt="Avtaar"/>
+                    <p class="text_big table_data slds-large-size_3-of-12 slds-medium-size_3-of-12">Ivan Magalhaes</p>
+                    <p class="text_small mobile table_data12">abcdef@xyz.com</p>
+                    <p class="text_small mobile">Total Contribution</p>
+                    <p class="text_big table_data slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <p class="text_big table_data web slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <p class="text_big table_data web slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <a class="slds-m-vertical_large table_data slds-large-size_2-of-12 slds-grid" href="#" target="_blank" rel="noopener noreferrer">
+                        <p>View Details</p>  
+                        <img class="icon web" src="assets/images/open.png" alt="">
+                    </a>
+                </div>
+                <div class="card box_shadow slds-m-vertical_large">
+                    <img class="avtaar slds-large-size_1-of-12 slds-medium-size_1-of-12 slds-m-right_small" src="assets/images/avatar1.jpg" alt="Avtaar"/>
+                    <p class="text_big table_data slds-large-size_3-of-12 slds-medium-size_3-of-12">Ivan Magalhaes</p>
+                    <p class="text_small mobile table_data12">abcdef@xyz.com</p>
+                    <p class="text_small mobile">Total Contribution</p>
+                    <p class="text_big table_data slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <p class="text_big table_data web slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <p class="text_big table_data web slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <a class="slds-m-vertical_large table_data slds-large-size_2-of-12 slds-grid" href="#" target="_blank" rel="noopener noreferrer">
+                        <p>View Details</p>  
+                        <img class="icon web" src="assets/images/open.png" alt="">
+                    </a>
+                </div>
+                <div class="card box_shadow slds-m-vertical_large">
+                    <img class="avtaar slds-large-size_1-of-12 slds-medium-size_1-of-12 slds-m-right_small" src="assets/images/avatar1.jpg" alt="Avtaar"/>
+                    <p class="text_big table_data slds-large-size_3-of-12 slds-medium-size_3-of-12">Ivan Magalhaes</p>
+                    <p class="text_small mobile table_data12">abcdef@xyz.com</p>
+                    <p class="text_small mobile">Total Contribution</p>
+                    <p class="text_big table_data slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <p class="text_big table_data web slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <p class="text_big table_data web slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <a class="slds-m-vertical_large table_data slds-large-size_2-of-12 slds-grid" href="#" target="_blank" rel="noopener noreferrer">
+                        <p>View Details</p>  
+                        <img class="icon web" src="assets/images/open.png" alt="">
+                    </a>
+                </div>
+                <div class="card box_shadow slds-m-vertical_large">
+                    <img class="avtaar slds-large-size_1-of-12 slds-medium-size_1-of-12 slds-m-right_small" src="assets/images/avatar1.jpg" alt="Avtaar"/>
+                    <p class="text_big table_data slds-large-size_3-of-12 slds-medium-size_3-of-12">Ivan Magalhaes</p>
+                    <p class="text_small mobile table_data12">abcdef@xyz.com</p>
+                    <p class="text_small mobile">Total Contribution</p>
+                    <p class="text_big table_data slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <p class="text_big table_data web slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <p class="text_big table_data web slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <a class="slds-m-vertical_large table_data slds-large-size_2-of-12 slds-grid" href="#" target="_blank" rel="noopener noreferrer">
+                        <p>View Details</p>  
+                        <img class="icon web" src="assets/images/open.png" alt="">
+                    </a>
+                </div>
+                <div class="card box_shadow slds-m-vertical_large">
+                    <img class="avtaar slds-large-size_1-of-12 slds-medium-size_1-of-12 slds-m-right_small" src="assets/images/avatar1.jpg" alt="Avtaar"/>
+                    <p class="text_big table_data slds-large-size_3-of-12 slds-medium-size_3-of-12">Ivan Magalhaes</p>
+                    <p class="text_small mobile table_data12">abcdef@xyz.com</p>
+                    <p class="text_small mobile">Total Contribution</p>
+                    <p class="text_big table_data slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <p class="text_big table_data web slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <p class="text_big table_data web slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <a class="slds-m-vertical_large table_data slds-large-size_2-of-12 slds-grid" href="#" target="_blank" rel="noopener noreferrer">
+                        <p>View Details</p>  
+                        <img class="icon web" src="assets/images/open.png" alt="">
+                    </a>
+                </div>
+                <div class="card box_shadow slds-m-vertical_large">
+                    <img class="avtaar slds-large-size_1-of-12 slds-medium-size_1-of-12 slds-m-right_small" src="assets/images/avatar1.jpg" alt="Avtaar"/>
+                    <p class="text_big table_data slds-large-size_3-of-12 slds-medium-size_3-of-12">Ivan Magalhaes</p>
+                    <p class="text_small mobile table_data12">abcdef@xyz.com</p>
+                    <p class="text_small mobile">Total Contribution</p>
+                    <p class="text_big table_data slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <p class="text_big table_data web slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <p class="text_big table_data web slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <a class="slds-m-vertical_large table_data slds-large-size_2-of-12 slds-grid" href="#" target="_blank" rel="noopener noreferrer">
+                        <p>View Details</p>  
+                        <img class="icon web" src="assets/images/open.png" alt="">
+                    </a>
+                </div>
+                <div class="card box_shadow slds-m-vertical_large">
+                    <img class="avtaar slds-large-size_1-of-12 slds-medium-size_1-of-12 slds-m-right_small" src="assets/images/avatar1.jpg" alt="Avtaar"/>
+                    <p class="text_big table_data slds-large-size_3-of-12 slds-medium-size_3-of-12">Ivan Magalhaes</p>
+                    <p class="text_small mobile table_data12">abcdef@xyz.com</p>
+                    <p class="text_small mobile">Total Contribution</p>
+                    <p class="text_big table_data slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <p class="text_big table_data web slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <p class="text_big table_data web slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <a class="slds-m-vertical_large table_data slds-large-size_2-of-12 slds-grid" href="#" target="_blank" rel="noopener noreferrer">
+                        <p>View Details</p>  
+                        <img class="icon web" src="assets/images/open.png" alt="">
+                    </a>
+                </div>
+                <div class="card box_shadow slds-m-vertical_large">
+                    <img class="avtaar slds-large-size_1-of-12 slds-medium-size_1-of-12 slds-m-right_small" src="assets/images/avatar1.jpg" alt="Avtaar"/>
+                    <p class="text_big table_data slds-large-size_3-of-12 slds-medium-size_3-of-12">Ivan Magalhaes</p>
+                    <p class="text_small mobile table_data12">abcdef@xyz.com</p>
+                    <p class="text_small mobile">Total Contribution</p>
+                    <p class="text_big table_data slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <p class="text_big table_data web slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <p class="text_big table_data web slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <a class="slds-m-vertical_large table_data slds-large-size_2-of-12 slds-grid" href="#" target="_blank" rel="noopener noreferrer">
+                        <p>View Details</p>  
+                        <img class="icon web" src="assets/images/open.png" alt="">
+                    </a>
+                </div>
+                <div class="card box_shadow slds-m-vertical_large">
+                    <img class="avtaar slds-large-size_1-of-12 slds-medium-size_1-of-12 slds-m-right_small" src="assets/images/avatar1.jpg" alt="Avtaar"/>
+                    <p class="text_big table_data slds-large-size_3-of-12 slds-medium-size_3-of-12">Ivan Magalhaes</p>
+                    <p class="text_small mobile table_data12">abcdef@xyz.com</p>
+                    <p class="text_small mobile">Total Contribution</p>
+                    <p class="text_big table_data slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <p class="text_big table_data web slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <p class="text_big table_data web slds-large-size_2-of-12 slds-medium-size_2-of-12">$ 821,243</p>
+                    <a class="slds-m-vertical_large table_data slds-large-size_2-of-12 slds-grid" href="#" target="_blank" rel="noopener noreferrer">
+                        <p>View Details</p>  
+                        <img class="icon web" src="assets/images/open.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
